@@ -1,0 +1,84 @@
+p {
+    font-size: 18px;
+}
+
+/*main Conatiner*/
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+
+}
+
+/*div 1 containing input button and input box*/
+#div1{
+	height: 100%;
+	width: 40%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#submit{
+	margin-top: 15px;
+	padding : 10px 50px;
+	font-size: 1rem;
+	border-radius: 20px;
+	background-color: rgb(255, 0, 135);
+	color:white;
+	font-weight: 600;
+	border: none;
+	box-shadow: 0px 0px 10px rgb(255, 0, 130);
+	cursor: pointer
+}
+#submit:hover{
+	color: rgb(255, 0, 135);	
+	background-color: white;
+	font-weight: 400;
+}
+
+#input{
+	width:60%;
+	height: 5%;
+	border-radius: 10px;
+	box-shadow:  0px 0px 5px black;
+}
+
+/*div 2 containing table*/
+#div2{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#div2>div{
+	display: flex;
+	flex-direction: row; 
+	height: 100%;
+	width:100%;
+	
+}
+
+#div2>div div{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	border: solid 1px black;
+	box-shadow: 0px 0px 12px darkgrey;
+	
+}
+
+
+table{
+	height:80%;
+	width:80%;
+	margin: 10% 10%;
+	/*border: 1px solid black*/
+}
+td{
+	border: solid 1px black
+}
